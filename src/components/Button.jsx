@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import styled from 'styled-components';
-import {Btncss} from '../styled';
+import {Btncss} from '../utils/styled';
 
 export default class Button extends Component{
    

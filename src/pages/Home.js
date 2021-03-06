@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import {Body} from '../styled';
+import {Body} from '../utils/styled';
 import Button from '../components/Button.jsx';
 import'./css/Home.css';
 
@@ -27,10 +27,10 @@ export default class Home extends Component{
           <span className="h2">With Neon Button and </span>
           <span className="h3">Animated Text</span>
           </p>
-          <Button classname={"first"}onPress={this.DecreaseItem}
-          btn="#fff" sbtn="#000" text="Decrease"/>
-          <Button classname={"sec"} onPress={this.IncrementItem} 
-          btn="#fff" sbtn="#000" text="Increase"/>
+          <Button classname="first" onPress={this.DecreaseItem}
+          btn="#e40017" sbtn="#000" text="Decrease"/>
+          <Button classname="sec" onPress={this.IncrementItem} 
+          btn="#fce38a" sbtn="#000" text="Increase"/>
           <p1>{this.state.clicks}</p1>
       </Body>
      );
